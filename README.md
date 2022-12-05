@@ -1,3 +1,4 @@
+
 # DRUMS
 
 ## About this project
@@ -7,7 +8,8 @@
   #### Styling using "Particles-js"</br></br>
   #### StarWars effect when hovering the mouse over the logo.</br></br>
   #### Effect when hovering the mouse over social network icons.</br></br></br>
- ![bateria](https://user-images.githubusercontent.com/38622239/205463815-6ec3129b-409a-45a3-b348-c1c8da31b602.png)
+  
+![drums](https://user-images.githubusercontent.com/38622239/205525995-4f60e203-8810-4c63-b4c0-d6e1b9232d4b.png)
 
 ## Technologies used
 
