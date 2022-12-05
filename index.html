@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bateria</title>
+    <link rel="shortcut icon" href="images/audio.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-js" class="body">
+        <div class="box" id="seletor">
+            <div class="form">
+                <div class="logo">
+                    <a class="houver" href="index.html" class="sub" onmouseover="bleep.play()">
+                        <img id="logo" src="images/logo3.png">
+                    </a>
+                </div>
+                <div class="keys">
+                    <div data-key="keyq" class="key"><i>Q</i></div>
+                    <div data-key="keyw" class="key"><i>W</i></div>
+                    <div data-key="keye" class="key"><i>E</i></div>
+                    <div data-key="keya" class="key"><i>A</i></div>
+                    <div data-key="keys" class="key"><i>S</i></div>
+                    <div data-key="keyd" class="key"><i>D</i></div>
+                    <div data-key="keyz" class="key"><i>Z</i></div>
+                    <div data-key="keyx" class="key"><i>X</i></div>
+                    <div data-key="keyc" class="key"><i>C</i></div>
+                </div>
+                <div class="composer">
+                    <!--<input type="text" id="input" placeholder="Faça uma composição...">
+                -->
+                    <div class="inputBox">
+                        <input type="text" id="input" required="required">
+                        <span>Faça uma composição...</span>
+                        <i></i>
+                    </div>
+                    <button>Tocar</button>
+                </div>
+            </div>
+        </div>
+        <footer class="footer" id="selector">
+            <a href="https://www.linkedin.com/in/bonieckdouglas/" target="_blank"><img class="icone" src="icones/linkedin.png"></a>
+                                
+            <a href="https://github.com/bonieck" target="_blank"><img class="icone" src="icones/github.png"></a>
+                            
+            <a href="https://www.facebook.com/bonieck.douglas" target="_blank"><img class="icone" src="icones/facebook.png"></a>
+                        
+            <a href="https://twitter.com/bonieck_douglas" target="_blank"><img class="icone" src="icones/twitter.png"></a>
+                            
+            <a href="https://www.instagram.com/bonieckdouglas/" target="_blank"><img class="icone" src="icones/instagram.png"></a>
+            
+            <p class="ano">Copyright: <span id="ano"></span> &copy; <a class="link" href="https://github.com/bonieck">Bonieck Douglas</a></p>
+        </footer>
+    </div>
+
+    <audio  id="s_keyq" src="sounds/keyq.wav"></audio>
+    <audio  id="s_keyw" src="sounds/keyw.wav"></audio>
+    <audio  id="s_keye" src="sounds/keye.wav"></audio>
+    <audio  id="s_keya" src="sounds/keya.wav"></audio>
+    <audio  id="s_keys" src="sounds/keys.wav"></audio>
+    <audio  id="s_keyd" src="sounds/keyd.wav"></audio>
+    <audio  id="s_keyz" src="sounds/keyz.wav"></audio>
+    <audio  id="s_keyx" src="sounds/keyx.wav"></audio>
+    <audio  id="s_keyc" src="sounds/keyc.wav"></audio>
+    
+    <script src="script.js"></script>
+    <script type="text/javascript" src="particles/particles.js"></script>
+<script type="text/javascript" src="particles/app.js"></script>
+</body>
+</html>
